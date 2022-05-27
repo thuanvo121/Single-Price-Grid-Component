@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="reset.css">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
 
@@ -15,35 +17,51 @@
   </style>
 </head>
 <body>
-  Join our community
-
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
+  <div class="ticket">
+    <div class="ticket__info">
+     <h2 class="ticket__info_title">
+       Join our community
+      </h2>
+      <h3 class="ticket__info_title-sec">
+        30-day, hassle-free money back  guarantee
+      </h3>
+      <p class="ticket__info_caption">
+        Gain access to our full library of tutorials along with expert code reviews. 
+       Perfect for any developers who are serious about honing their skills.
+      </p>
+    </div>
+    <div class="ticket__cta">
+      <div class="ticket__cta_title">
+        Monthly Subscription
+      </div>
+      <div class="ticket__cta_price">
+        &dollar;29
+        <!-- <span class="span">per month</span>  -->
+      </div>
+      <div class="ticket__cta_cap">
+        Full access for less than &dollar;1 a day
+      </div> 
+      <button class="ticket__cta_btn">Sign Up</button>
+  </div>
+  <div class="ticket__footer">
+    <div class="ticket__footer_title">
+      Why Us
+    </div>
+    <div class="ticket__footer_cap">
+      Tutorials by industry experts<br>
+      Peer &amp; expert code review<br>
+      Coding exercises<br>
+      Access to our GitHub repos<br>
+      Community forum<br>
+      Flashcard decks<br>
+      New videos every week
+    </div>
+  </div>
+</div>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Daniel Vo</a>.
     </p>
   </footer>
 </body>
